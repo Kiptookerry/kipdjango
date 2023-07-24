@@ -5,6 +5,10 @@ def aboutpage(request):
     return render(request, "about.html")
 
 
+def indexpage(request):
+    return render(request, "index.html")
+
+
 def servicespage(request):
     return render(request, "services.html")
 
